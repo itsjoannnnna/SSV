@@ -1,0 +1,115 @@
+<html class= "no-js">
+	<head>
+		<title>SSV</title>
+		<meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--Added-->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="shortcut icon" href="images/spartan.png">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+        
+	</head>
+	<body ng-app="webApp" class="landing"> <!--Added-->
+        <div ng-include='"templates/header.html"'></div>
+        <ng-view></ng-view>
+        <div ng-include='"templates/footer.html"'></div>
+        
+        <!-- Our Website Javascripts -->
+        <script>
+        var app = angular.module('webApp', ['ngRoute']);
+            app.config(['$routeProvider', function ($routeProvider) {
+            $routeProvider
+                // Home
+                .when("/", {templateUrl: "partials/home.html"})
+                .when("/home", {templateUrl: "partials/home.html"})
+                // Pages
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+            
+                //Pictures
+                .when("/a6690", {templateUrl: "images/IMG_6690.JPG"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"})
+                .when("/registration", {templateUrl: "partials/registration.html"})
+                .when("/program", {templateUrl: "partials/program.html"})
+                .when("/student", {templateUrl: "partials/student.html"})
+                .when("/speakers", {templateUrl: "partials/speakers.html"})
+                .when("/testimonies", {templateUrl: "partials/testimonies.html"})
+                .when("/picture", {templateUrl: "partials/picture.html"})
+                .when("/picture/2015", {templateUrl: "partials/picture15.html"})
+                .when("/projects", {templateUrl: "partials/projects.html"})
+                .when("/contact", {templateUrl: "partials/contact.html"});
+            }]);
+        
+        </script>
+        
+        <script src="../dist/js/lightbox-plus-jquery.min.js"></script>
+    
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
